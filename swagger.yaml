@@ -1,0 +1,233 @@
+---
+swagger: "2.0"
+info:
+  description: This is a simple API that provides information about the characters and stories within The Chronicles of St. Mary's series written by Jodi Taylor.
+  version: 1.0.0
+  title: The Chronicles of St. Mary's API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: virtserver.swaggerhub.com
+basePath: /cindytran19/St.Marys/1.0.0
+tags:
+- name: titles
+  description: All the novels and short stories in the Chronicles of St. Mary's series
+- name: characters
+  description: All the characters in the Chronicles of St. Mary's series
+schemes:
+- https
+paths:
+  /titles:
+    get:
+      tags:
+      - titles
+      summary: returns all titles of novels and short stories within the series
+      operationId: displayTitles
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        "200":
+          description: 'Success: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/titles'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /titles/orderBy/story:
+    get:
+      tags:
+      - titles
+      summary: returns all titles in chronological reading order
+      operationId: displayTitlesByStoryOrder
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        "200":
+          description: 'Success: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/titles'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /titles/orderBy/published:
+    get:
+      tags:
+      - titles
+      summary: returns all titles in chronological order by published date
+      operationId: displayTitlesByPublished
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        "200":
+          description: 'Success: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/titles'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /titles/{storyType}:
+    get:
+      tags:
+      - titles
+      summary: returns all titles by story type, either novel or short story.
+      operationId: displayTitlesByStoryType
+      produces:
+      - application/json
+      parameters:
+      - name: storyType
+        in: path
+        description: Either short story or novel
+        required: true
+        type: string
+      responses:
+        "200":
+          description: 'Success: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/titles'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /characters:
+    get:
+      tags:
+      - characters
+      summary: returns all characters from the series
+      operationId: displayCharacters
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        "200":
+          description: 'Sucess: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/characters'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /characters/section/{section}:
+    get:
+      tags:
+      - characters
+      summary: returns all characters from within a specific section
+      operationId: displayCharactersBySection
+      produces:
+      - application/json
+      parameters:
+      - name: section
+        in: path
+        description: 'One of: Historian, Admin, Technician, Security, Medical, R&D'
+        required: true
+        type: string
+      responses:
+        "200":
+          description: 'Sucess: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/characters'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+  /characters/status/{status}:
+    get:
+      tags:
+      - characters
+      summary: returns all characters based on their status, either Dead or Alive
+      operationId: displayCharactersByStatus
+      produces:
+      - application/json
+      parameters:
+      - name: status
+        in: path
+        description: 'Either: Dead or Alive'
+        required: true
+        type: string
+      responses:
+        "200":
+          description: 'Sucess: search results matching criteria'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/characters'
+        "400":
+          description: Bad Request. Have you been ingesting Professor Rapson's toxic honey?
+        "404":
+          description: 'Error: Not Found. Did you forget to do your FOD plod?'
+definitions:
+  titles:
+    type: object
+    required:
+    - id
+    - order
+    - published
+    - storyType
+    - title
+    properties:
+      id:
+        type: string
+        example: ""
+      title:
+        type: string
+        example: Just One Damned Thing After Another
+      storyType:
+        type: string
+        example: novel
+      published:
+        type: string
+        example: 2013-06
+      order:
+        type: string
+        example: "01"
+  characters:
+    type: object
+    required:
+    - affiliation
+    - aka
+    - id
+    - name
+    - role
+    - section
+    - status
+    properties:
+      id:
+        type: string
+        example: ""
+      name:
+        type: string
+        example: Dr. Madeleine Maxwell
+      aka:
+        type: string
+        example: Miss Maxwell, Maxwell, Max, Lucy
+      status:
+        type: string
+        example: Alive
+      affiliation:
+        type: string
+        example: St. Mary's
+      section:
+        type: string
+        example: Historian
+      role:
+        type: string
+        example: Chief Operations Officer

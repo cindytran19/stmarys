@@ -1,0 +1,560 @@
+[
+    {
+        "id":"0001",
+        "name":"Maxwell, Dr. Madeleine",
+        "aka":"Miss Maxwell, Maxwell, Max, Lucy",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Chief Operations Officer, Caretaker Director of a future St. Mary's"
+    },
+    {
+        "id":"0002",
+        "name":"De Winter, Sibyl",
+        "aka":"Mrs. De Winter",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Ally",
+        "role":"Occaisonal Recruiter"
+    },
+    {
+        "id":"0003",
+        "name":"Enderby, Mavis",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Wardrobe",
+        "role":"Head of Wardrobe"
+    },
+    {
+        "id":"0004",
+        "name":"Rapson, Professor Andrew",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"Head of R&D"
+    },
+    {
+        "id":"0005",
+        "name":"Cameron, Jamie",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"Former R&D Member"
+    },
+    {
+        "id":"0006",
+        "name":"Mack, Teresa",
+        "aka":"Kitchen Supremo",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Kitchen",
+        "role":"Head of Kitchens"
+    },
+    {
+        "id":"0007",
+        "name":"Dowson, Dr. Octavius",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"Librarian and Archivist"
+    },
+    {
+        "id":"0008",
+        "name":"Lower",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Former Senior Historian"
+    },
+    {
+        "id":"0009",
+        "name":"Baverstock, Tom",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Former Senior Historian"
+    },
+    {
+        "id":"0010",
+        "name":"Guthrie, Major Ian",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Former Head of Security"
+    },
+    {
+        "id":"0011",
+        "name":"Farrell, Leon",
+        "aka":"Chief",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Technical",
+        "role":"Co-Chief Technical Officer" 
+    },
+    {
+        "id":"0012",
+        "name":"Markham",
+        "aka":"Richard, Duke of York",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Head of Security" 
+    },
+    {
+        "id":"0013",
+        "name":"Bairstow, Dr. Edward G.",
+        "aka":"Director Bairstow, Teddy, The Boss",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"Director of present St. Mary's" 
+    },
+    {
+        "id":"0014",
+        "name":"Partridge, Cleo",
+        "aka":"Mrs. Partridge, Kleio, Daughter of Zeus and Muse of History ",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"PA to St. Mary's directors, Muse of History" 
+    },
+    {
+        "id":"0015",
+        "name":"Sussman, Davey",
+        "aka":"",
+        "status":"Dead ",
+        "affiliation":"Enemy",
+        "section":"History",
+        "role":"Traitor, Former Historian"
+    },
+    {
+        "id":"0016",
+        "name":"Foster, Dr. Helen",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"Medical",
+        "role":"Former Chief Medical Officer"
+    },
+    {
+        "id":"0017",
+        "name":"Barclay, Isabella",
+        "aka":"Izzie, Bitchface Barclay",
+        "status":"Dead",
+        "affiliation":"Enemy",
+        "section":"Traitor",
+        "role":"Former Head of IT"
+    },
+    {
+        "id":"0018",
+        "name":"Murdoch, Dave",
+        "aka":"Big Dave Murdoch",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Former Security Officer"
+    },
+    {
+        "id":"0019",
+        "name":"Whissell",
+        "aka":"Weasel",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Former Security Officer"
+    },
+    {
+        "id":"0020",
+        "name":"Swanson",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"R&D Member"
+    },
+    {
+        "id":"0021",
+        "name":"Perkins, Polly",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"IT",
+        "role":"Head of IT"
+    },
+    {
+        "id":"0022",
+        "name":"Dieter",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Technical",
+        "role":"Co-Chief Technical Officer"
+    },
+    {
+        "id":"0023",
+        "name":"Peterson, Dr. Tim",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Chief Training Officer"
+    },
+    {
+        "id":"0024",
+        "name":"Black, Dr. Kalinda",
+        "aka":"Ice Princess",
+        "status":"Alive",
+        "affiliation":"Thirsk",
+        "section":"History",
+        "role":"St. Mary's Liaison Officer with Thirsk University, Former Senior Historian"
+    },
+    {
+        "id":"0025",
+        "name":"Grant, Kevin",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Former Historian"
+    },
+    {
+        "id":"0026",
+        "name":"Hunter, Diane",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Medical",
+        "role":"Chief Nurse"
+    },
+    {
+        "id":"0027",
+        "name":"Strong",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"Caretaker"
+    },
+    {
+        "id":"0028",
+        "name":"Ronan, Clive",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"Enemy",
+        "section":"Traitor",
+        "role":"Bad Guy, Former Historian"
+    },
+    {
+        "id":"0029",
+        "name":"Fields, Jenny",
+        "aka":"",
+        "status":"Dead ",
+        "affiliation":"St. Mary's",
+        "section":"Kitchen",
+        "role":"Former Kitchen Member"
+    },
+    {
+        "id":"0030",
+        "name":"Van Owen, Greta",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0031",
+        "name":"Clerk",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Senior Historian"
+    },
+    {
+        "id":"0032",
+        "name":"Schiller, Mary",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Former Senior Historian"
+    },
+    {
+        "id":"0033",
+        "name":"Evans",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Security Officer"
+    },
+    {
+        "id":"0034",
+        "name":"Weller, Robbie",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Former Security Officer"
+    },
+    {
+        "id":"0035",
+        "name":"Ritter, Karl",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"Security",
+        "role":"Former Security Officer"
+    },
+    {
+        "id":"0036",
+        "name":"Carr, Katie",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"Medical",
+        "role":"Nurse at a future St. Mary's"
+    },
+    {
+        "id":"0037",
+        "name":"Esterhazy, Young",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"St. Mary's",
+        "section":"IT",
+        "role":"Former IT Member"
+    },
+    {
+        "id":"0038",
+        "name":"Dr. Ben",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"Medical",
+        "role":"Medical Doctor of a future St. Mary's"
+    },
+    {
+        "id":"0039",
+        "name":"Pinkerton",
+        "aka":"Pinkie",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"Director of a future St. Mary's"
+    },
+    {
+        "id":"0040",
+        "name":"Christine",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"Kitchen",
+        "role":"Kitchen Leader of a future St. Mary's"
+    },
+    {
+        "id":"0041",
+        "name":"Alicia",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"Librarian of a future St. Mary's"
+    },
+    {
+        "id":"0042",
+        "name":"Evan",
+        "aka":"Evan the Bastard",
+        "status":"Dead",
+        "affiliation":"Enemy",
+        "section":"Traitor",
+        "role":"Former Senior Historian of a future St. Mary's"
+    },
+    {
+        "id":"0043",
+        "name":"Theresa",
+        "aka":"",
+        "status":"Unknown",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian of a future St. Mary's"
+    },
+    {
+        "id":"0044",
+        "name":"Knox, Dr. Alexander",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"Enemy",
+        "section":"Traitor",
+        "role":"Former Director of a future St. Mary's"
+    },
+    {
+        "id":"0045",
+        "name":"Sands, David",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0046",
+        "name":"Lee, Rosie",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"PA to Chief Operations Officer"
+    },
+    {
+        "id":"0047",
+        "name":"Shaw, Elizabeth",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Admin",
+        "role":"PA to Chief Training Officer"
+    },
+    {
+        "id":"0048",
+        "name":"Bashford, Tom",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Senior Historian"
+    },
+    {
+        "id":"0049",
+        "name":"Grey, Elspeth",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Former Senior Historian"
+    },
+    {
+        "id":"0050",
+        "name":"Roberts, Gareth",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0051",
+        "name":"Penrose, Professor Eddington",
+        "aka":"Eddie",
+        "status":"Alive",
+        "affiliation":"Thirsk",
+        "section":"Ally",
+        "role":"Retired physicist"
+    },
+    {
+        "id":"0052",
+        "name":"Lindstrom",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Technical",
+        "role":"Techie"
+    },
+    {
+        "id":"0053",
+        "name":"Prentiss, Paula",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0054",
+        "name":"Ellis, Captain Mathew",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"Time Police",
+        "section":"None",
+        "role":"Time Police Captain"
+    },
+    {
+        "id":"0055",
+        "name":"Farenden, Captain",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"Time Police",
+        "section":"None",
+        "role":"Time Police Captain"
+    },
+    {
+        "id":"0056",
+        "name":"Hay, Commander",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"Time Police",
+        "section":"None",
+        "role":"Time Police Commander"
+    },
+    {
+        "id":"0057",
+        "name":"Adrian",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"Technical",
+        "role":"Techie"
+    },
+    {
+        "id":"0058",
+        "name":"Mikey",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"R&D Member"
+    },
+    {
+        "id":"0059",
+        "name":"Sykes, Elizabeth",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0060",
+        "name":"Atherton, Phil",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"History",
+        "role":"Historian"
+    },
+    {
+        "id":"0061",
+        "name":"Lingoss, Constance",
+        "aka":"",
+        "status":"Alive",
+        "affiliation":"St. Mary's",
+        "section":"R&D",
+        "role":"R&D Member"
+    },
+    {
+        "id":"0062",
+        "name":"Albay, Colonel",
+        "aka":"",
+        "status":"Dead",
+        "affiliation":"Time Police",
+        "section":"None",
+        "role":"Former Time Police Commander"
+    }
+]

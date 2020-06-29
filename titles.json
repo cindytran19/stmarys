@@ -1,0 +1,184 @@
+[
+   {
+      "id":"ss01n100",
+      "title":"The Very First Damned Thing",
+      "published":"2015-10",
+      "storyType":"short story",
+      "order":"0.5"
+   },
+   {
+      "id":"n100",
+      "title":"Just One Damned Thing After Another",
+      "published":"2013-06",
+      "storyType":"novel",
+      "order":"01"
+   },
+   {
+      "id":"n200",
+      "title":"A Symphony of Echoes",
+      "published":"2013-10",
+      "storyType":"novel",
+      "order":"02"
+   },
+   {
+      "id":"n200ss01",
+      "title":"When a Child is Born",
+      "published":"2013-11",
+      "storyType":"short story",
+      "order":"02.5"
+   },
+   {
+      "id":"n300",
+      "title":"A Second Chance",
+      "published":"2014-02",
+      "storyType":"novel",
+      "order":"03"
+   },
+   {
+      "id":"n300ss01",
+      "title":"Roman Holiday",
+      "published":"2014-06",
+      "storyType":"short story",
+      "order":"03.5"
+   },
+   {
+      "id":"n400",
+      "title":"A Trail Through Time",
+      "published":"2014-07",
+      "storyType":"novel",
+      "order":"04"
+   },
+   {
+      "id":"n400ss01",
+      "title":"Christmas Present",
+      "published":"2014-11",
+      "storyType":"short story",
+      "order":"04.5"
+   },
+   {
+      "id":"n500",
+      "title":"No Time Like the Past",
+      "published":"2015-02",
+      "storyType":"novel",
+      "order":"05"
+   },
+   {
+      "id":"n600",
+      "title":"What Could Possibly Go Wrong?",
+      "published":"2015-08",
+      "storyType":"novel",
+      "order":"06"
+   },
+   {
+      "id":"n600ss01",
+      "title":"Ships and Stings and Wedding Rings",
+      "published":"2015-11",
+      "storyType":"short story",
+      "order":"06.5"
+   },
+   {
+      "id":"n700",
+      "title":"Lies, Damned Lies, and History",
+      "published":"2016-05",
+      "storyType":"novel",
+      "order":"07"
+   },
+   {
+      "id":"n700ss01",
+      "title":"The St. Mary's Day Out",
+      "published":"2016-08",
+      "storyType":"short story",
+      "order":"07.5"
+   },
+   {
+      "id":"n700ss02",
+      "title":"My Name is Markham",
+      "published":"2016-12",
+      "storyType":"short story",
+      "order":"07.6"
+   },
+   {
+      "id":"n800",
+      "title":"And the Rest is History",
+      "published":"2017-04",
+      "storyType":"novel",
+      "order":"08"
+   },
+   {
+      "id":"n800ss01",
+      "title":"Markham and the Anal Probing",
+      "published":"2017-05",
+      "storyType":"short story",
+      "order":"08.5"
+   },
+   {
+      "id":"n800ss02",
+      "title":"A Perfect Storm",
+      "published":"2017-08",
+      "storyType":"short story",
+      "order":"08.6"
+   },
+   {
+      "id":"n800ss03",
+      "title":"Christmas Past",
+      "published":"2017-12",
+      "storyType":"short story",
+      "order":"08.7"
+   },
+   {
+      "id":"n900",
+      "title":"An Argumentation of Historians",
+      "published":"2018-05",
+      "storyType":"novel",
+      "order":"09"
+   },
+   {
+      "id":"n900ss01",
+      "title":"The Battersea Barricades",
+      "published":"2018-04",
+      "storyType":"short story",
+      "order":"09.5"
+   },
+   {
+      "id":"n900ss02",
+      "title":"The Steam Pump Jump",
+      "published":"2018-07",
+      "storyType":"short story",
+      "order":"09.6"
+   },
+   {
+      "id":"n900ss03",
+      "title":"And Now for Something Completely Different",
+      "published":"2018-12",
+      "storyType":"short story",
+      "order":"09.7"
+   },
+   {
+      "id":"n1000",
+      "title":"Hope for the Best",
+      "published":"2019-05",
+      "storyType":"novel",
+      "order":"10"
+   },
+   {
+      "id":"n1000ss01",
+      "title":"When Did You Last See Your Father?",
+      "published":"2019-09",
+      "storyType":"short story",
+      "order":"10.5"
+   },
+   {
+      "id":"n1000ss02",
+      "title":"Why is Nothing Ever Simple?",
+      "published":"2019-12",
+      "storyType":"short story",
+      "order":"10.6"
+   },
+   {
+      "id":"1000",
+      "title":"Plan for the Worst",
+      "published":"2020-04",
+      "storyType":"novel",
+      "order":"11"
+   }
+]
