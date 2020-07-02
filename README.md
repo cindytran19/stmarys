@@ -9,7 +9,7 @@ This API allows you to make `GET` requests to obtain information on the characte
 
 To make a request, add your desired endpoint to the URL `https://apis.cindytran.info/stmarys/`. 
 
-For example, `https://apis.cindytran.info/stmarys/characters` will get you a list of all characters within the series. 
+>For example, `https://apis.cindytran.info/stmarys/characters` will get you a list of all characters within the series. 
 
 The valid endpoints are:
 
@@ -19,7 +19,9 @@ The valid endpoints are:
 
 The `characters` and `titles` endpoints can be further modified to sort the requested data. 
 
-For example, `https://apis.cindytran.info/stmarys/characters/orderBy/name` will get you a list of all characters within the series sorted in alphabetical order by last name and `https://apis.cindytran.info/stmarys/titles/orderBy/published` will get you a list of all titles within the series in order of the date they were published. 
+>For example, `https://apis.cindytran.info/stmarys/characters/orderBy/name` will get you a list of all characters within the series sorted in alphabetical order by last name 
+
+>`https://apis.cindytran.info/stmarys/titles/orderBy/published` will get you a list of all titles within the series in order of the date they were published. 
 
 You can further modify the `characters` endpoint with:
 
