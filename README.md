@@ -21,7 +21,7 @@ The `characters` and `titles` endpoints can be further modified to sort the requ
 
 >For example, `https://apis.cindytran.info/stmarys/characters/orderBy/name` will get you a list of all characters within the series sorted in alphabetical order by last name 
 
->`https://apis.cindytran.info/stmarys/titles/orderBy/published` will get you a list of all titles within the series in order of the date they were published. 
+>For example, `https://apis.cindytran.info/stmarys/titles/orderBy/published` will get you a list of all titles within the series in order of the date they were published. 
 
 You can further modify the `characters` endpoint with:
 
