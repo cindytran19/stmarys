@@ -7,7 +7,9 @@ I created this API as an opportunity to develop my skills in REST API documentat
 ## How to Use the API
 This API allows you to make `GET` requests to obtain information on the characters and titles of the St. Mary's series. You can also make a `GET` request to simulate a "jump assignment" like in the series. 
 
-To make a request, add your desired endpoint to the URL `https://apis.cindytran.info/stmarys/`. For example, `https://apis.cindytran.info/stmarys/characters` will get you a list of all characters within the series. 
+To make a request, add your desired endpoint to the URL `https://apis.cindytran.info/stmarys/`. 
+
+For example, `https://apis.cindytran.info/stmarys/characters` will get you a list of all characters within the series. 
 
 The valid endpoints are:
 
@@ -15,7 +17,9 @@ The valid endpoints are:
 * `titles` for a list of all titles within the series
 * `jump` for a simulated "jump"
 
-The `characters` and `titles` endpoints can be further modified to sort the requested data. For example, `https://apis.cindytran.info/stmarys/characters/orderBy/name` will get you a list of all characters within the series sorted in alphabetical order by last name. 
+The `characters` and `titles` endpoints can be further modified to sort the requested data. 
+
+For example, `https://apis.cindytran.info/stmarys/characters/orderBy/name` will get you a list of all characters within the series sorted in alphabetical order by last name and `https://apis.cindytran.info/stmarys/titles/orderBy/published` will get you a list of all titles within the series in order of the date they were published. 
 
 You can further modify the `characters` endpoint with:
 
