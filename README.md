@@ -27,7 +27,7 @@ You can further modify the `characters` endpoint with:
 
 * `/orderBy/name` to order the characters in alphabetical order by last name
 * `/section/{section}` to sort the characters by their section in the series. Replace {section} with one of: Admin, History, Kitchen, IT, Medical, R&D, Security, Technical, Wardrobe, None, Traitor (Note: case sensitive)
-* `status/{status}` to sort the characters by their current life status in the series. Replace {status} with one of: Dead, Alive, Unknown (note: case sensitive)
+* `/status/{status}` to sort the characters by their current life status in the series. Replace {status} with one of: Dead, Alive, Unknown (note: case sensitive)
 
 You can further modify the `titles` endpoint with: 
 
